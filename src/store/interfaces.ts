@@ -16,7 +16,6 @@ export type TSetStoreCustom<T> = {
 }['_'];
 
 export interface IStatus {
-  code: string | null;
   isError: boolean;
   isLoading: boolean;
   isSuccess: boolean;

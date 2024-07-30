@@ -1,0 +1,19 @@
+{
+  "token": {
+    "wireframe": false,
+    "colorPrimary": "#fa8201",
+    "colorInfo": "#fa8201",
+    "colorWarning": "#fadb14",
+    "colorError": "#d70964",
+    "colorLink": "#722ed1"
+  },
+  "components": {
+    "AutoComplete": {
+      "algorithm": true
+    },
+    "Dropdown": {
+      "algorithm": true
+    }
+  },
+  "algorithm": "dark"
+}

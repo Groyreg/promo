@@ -1,4 +1,4 @@
-import { IError } from '@api/axios/interfaces';
+import { IError } from '@app/api/axios/interfaces';
 import { create, StoreApi, UseBoundStore } from 'zustand';
 import { devtools, persist } from 'zustand/middleware';
 import { immer } from 'zustand/middleware/immer';
@@ -75,7 +75,6 @@ export const createStore = <T extends IDefaultStore>(setter: TSetter<T>, storeNa
     ),
   );
 
-// TODO resolve any
 export const createStoreWithCache = <T extends IDefaultStore>(
   setter: TSetter<T>,
   storeName: string,
